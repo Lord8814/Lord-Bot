@@ -3,6 +3,25 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+
+# Ignorer les fichiers de configuration sensibles
+.env
+config.json
+
+# Ignorer l'environnement virtuel (si tu en as un)
+.venv/
+env/
+venv/
+
+# Ignorer les fichiers de logs et les autres fichiers temporaires
+*.log
+*.sqlite3
+
+# Fichiers de build, distribution ou installation (si tu en as)
+build/
+dist/
+*.egg-info/
+
 # C extensions
 *.so
 
